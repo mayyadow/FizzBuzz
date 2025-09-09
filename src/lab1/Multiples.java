@@ -6,11 +6,11 @@ public class Multiples {
         System.out.println(count);
     }
 
-    static int multiples(){
+    public static int multiples(){
         return multiples(10, 3, 5);
     }
 
-    static int multiples(int n, int a, int b ) {
+    public static int multiples(int n, int a, int b ) {
         int i = 1;
         int count = 0;
         while (i < n){
