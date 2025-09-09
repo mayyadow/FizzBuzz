@@ -13,7 +13,7 @@ public class MultiplesDefaultTest {
     @Test
     public void testDefault() {
         assertEquals(466,
-                Multiples.multiples(),
+                Multiples.multiples(1000, 5, 3),
                 "Multiples.multiples() is incorrect for default values");
     }
 
