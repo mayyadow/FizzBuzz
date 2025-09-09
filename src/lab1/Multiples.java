@@ -7,7 +7,7 @@ public class Multiples {
     }
 
     public static int multiples(){
-        return multiples(10, 3, 5);
+        return multiples(1000, 3, 5);
     }
 
     public static int multiples(int n, int a, int b ) {
